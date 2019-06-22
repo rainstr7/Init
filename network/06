@@ -1,0 +1,7 @@
+echo "Get the complete path of the file that contains the IP address of the DNS server you’re using"
+1) cat /var/run/resolv.conf
+
+#etc/resolv.conf contains the IP address of the used DNS server
+mi-o4% ls -l etc/resolv.conf 
+
+lrwxr-xr-x  1 root  wheel  22 Aug  4  2018 etc/resolv.conf -> ../var/run/resolv.conf

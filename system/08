@@ -1,0 +1,5 @@
+Doing command
+cat /etc/ssh/sshd_config | grep "#AuthorizedKeysFile"
+or 
+cat /etc/ssh/sshd_config | more 
+and find line #AuthorizedKeysFile

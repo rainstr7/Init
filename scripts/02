@@ -1,0 +1,6 @@
+#!/bin/bash
+read username
+
+passwd --lock "$username"
+pgrep -u "$username" | killall -9 -u "$username"
+sudo userdel -f "$username"

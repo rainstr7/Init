@@ -1,0 +1,3 @@
+top 
+#is mostly used interactively (try reading man page or pressing "h" while top is running)
+#or - ps aux which gives you a single snapshot.

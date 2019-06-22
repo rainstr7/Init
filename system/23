@@ -1,0 +1,2 @@
+sudo useradd -p password -s /bin/bash test1
+ssh <user>@<ip>

@@ -1,0 +1,2 @@
+uname -a
+#or: goto /etc cat debian_version

@@ -1,0 +1,8 @@
+whois slash16.org | grep "Name Server" | awk '{print $3}'
+
+#1) command:
+#dig slash16.org
+#2) in the category "ANSWER SECTION", column 5, find IPs of servers
+#3) command:
+#whois <Name Server>
+#4) in the category "Registrar" find the name of the provider
